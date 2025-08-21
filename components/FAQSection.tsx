@@ -65,11 +65,11 @@ export default function FAQ() {
       ),
     },
     {
-      question: "How do I configure Google Gemini?",
+      question: "How do I configure Gemini CLI?",
       answer: (
         <>
           <p className="mb-2">
-            Configure Gemini to use AGENTS.md in <code>.gemini/settings.json</code>:
+            Configure Gemini CLI to use AGENTS.md in <code>.gemini/settings.json</code>:
           </p>
           <div className="w-full flex justify-center">
             <CodeExample
