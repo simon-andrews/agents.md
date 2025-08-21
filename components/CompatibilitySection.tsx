@@ -59,7 +59,7 @@ export default function CompatibilitySection() {
         Your agent definitions are compatible with a growing ecosystem of AI
         coding agents and tools:
       </p>
-      <div className="mt-6 flex flex-wrap justify-center items-center gap-4">
+      <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-4 items-stretch">
         {agents.map(
           ({
             name,
@@ -75,7 +75,7 @@ export default function CompatibilitySection() {
                 href={url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex w-56 h-20 p-3 items-center rounded-lg transition-colors hover:bg-gray-100 dark:hover:bg-gray-800"
+                className="flex w-full h-20 p-3 items-center rounded-lg transition-colors hover:bg-gray-100 dark:hover:bg-gray-800"
               >
                  <div className="w-16 h-16 flex items-center justify-center mr-3">
                   {imageSrcLight && imageSrcDark ? (

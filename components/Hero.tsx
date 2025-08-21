@@ -18,7 +18,8 @@ export default function Hero() {
           <h1 className="text-5xl md:text-6xl font-bold tracking-tight">AGENTS.md</h1>
 
           <p className="mt-2 text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-            A simple, open format for guiding coding agents,<br />
+            A simple, open format for guiding coding agents,{" "}
+            <br className="hidden sm:block" />
             used by over{" "}
             <a
               href="https://github.com/search?q=path%3AAGENTS.md&type=code"
