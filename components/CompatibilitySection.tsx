@@ -82,6 +82,11 @@ export default function CompatibilitySection() {
       url: "https://semgrep.dev",
       imageSrc: "/logos/semgrep.svg",
     },
+    {
+      name: "Warp",
+      url: "https://docs.warp.dev/knowledge-and-collaboration/rules#project-scoped-rules-1",
+      imageSrc: "/logos/warp.svg",
+    },
   ];
   return (
     <Section
